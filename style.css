@@ -5,9 +5,9 @@
   --ink: #17243a;
   --muted: #718096;
   --line: #e8edf4;
-  --blue: #3568d4;
-  --blue-dark: #2654b5;
-  --pale-blue: #edf3ff;
+  --red: #c83f4f;
+  --red-dark: #a92f40;
+  --pale-red: #fff0f1;
   --surface: #ffffff;
   --background: #f5f7fb;
 }
@@ -60,7 +60,7 @@ select {
   height: 34px;
   place-items: center;
   border-radius: 10px;
-  background: var(--blue);
+  background: var(--red);
   color: white;
   font-size: 17px;
 }
@@ -191,7 +191,7 @@ select {
 select:focus-visible,
 button:focus-visible,
 a:focus-visible {
-  outline: 3px solid #a9c2ff;
+  outline: 3px solid #f2aab2;
   outline-offset: 2px;
 }
 
@@ -207,13 +207,13 @@ a:focus-visible {
 }
 
 .button-primary {
-  background: var(--blue);
+  background: var(--red);
   color: white;
 }
 
 .button-primary:hover:not(:disabled) {
   transform: translateY(-1px);
-  background: var(--blue-dark);
+  background: var(--red-dark);
 }
 
 button:disabled,
@@ -237,7 +237,7 @@ select:disabled {
 }
 
 .course-code {
-  color: var(--blue);
+  color: var(--red);
   font-size: 10px;
   font-weight: 700;
   white-space: nowrap;
@@ -255,7 +255,7 @@ select:disabled {
 }
 
 .course-counter {
-  color: var(--blue);
+  color: var(--red);
   font-family: "Manrope", sans-serif;
   font-size: 15px;
   font-weight: 800;
@@ -273,7 +273,7 @@ select:disabled {
   width: 0;
   height: 100%;
   border-radius: inherit;
-  background: var(--blue);
+  background: var(--red);
   transition: width 200ms ease;
 }
 
@@ -286,7 +286,7 @@ select:disabled {
 .status-message {
   min-height: 17px;
   margin: 0 0 5px;
-  color: #315db9;
+  color: #a92f40;
   font-size: 11px;
 }
 
@@ -361,8 +361,8 @@ select:disabled {
   margin-bottom: 10px;
   place-items: center;
   border-radius: 50%;
-  background: var(--pale-blue);
-  color: var(--blue);
+  background: var(--pale-red);
+  color: var(--red);
   font-size: 21px;
 }
 
